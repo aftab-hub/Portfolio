@@ -26,14 +26,14 @@ const About = () => {
         </p>
 
         <div className="flex justify-center gap-10 text-center text-gray-700 dark:text-gray-200 font-semibold text-lg mt-4">
-          <div>
+          {/* <div>
             <p className="text-3xl text-cyan-500">2+</p>
             <span className='text-gray-700'>Web Apps Built</span>
           </div>
           <div>
             <p className="text-3xl text-cyan-500">1+</p>
             <span className='text-gray-700'>Years of Experience</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

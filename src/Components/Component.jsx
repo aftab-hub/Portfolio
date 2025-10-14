@@ -14,7 +14,7 @@ const Component = () => {
 
       <About/>
     <Works/>
-  <Testimonials/>
+  {/* <Testimonials/> */}
     
     <Contact/>
 

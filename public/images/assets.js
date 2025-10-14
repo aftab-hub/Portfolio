@@ -43,10 +43,10 @@ export const assets = [
 
 export const projects = [
     {
-        imgSrc: "/images/Auth.png",
-        title: "MERN Authentication App Clone",
-        description: "A clone of a MERN stack authentication app, showcasing user registration, login, and session management.",
-        link: "https://github.com/aftab-hub/MernAuth"
+        imgSrc: "/images/TodoApp.png",
+        title: "Todo App with User Authentication",
+        description: "A full-stack Todo application that allows users to create, update, delete, and manage tasks securely. Includes robust user authentication.",
+        link: ""
     }
 ]
 

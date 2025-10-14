@@ -28,7 +28,7 @@ const Navbar = () => {
             { name: "Home", href: "#home" },
             { name: "About", href: "#about" },
             { name: "Works", href: "#works" },
-            { name: "Reviews", href: "#reviews" },
+            // { name: "Reviews", href: "#reviews" },
             { name: "Contact", href: "#contact" },
           ].map(({ name, href }) => (
             <li key={name}>
@@ -76,7 +76,7 @@ const Navbar = () => {
               <RiCodeBoxFill />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#reviews"
               onClick={() => handleLinkClick("Reviews")}
@@ -84,7 +84,7 @@ const Navbar = () => {
             >
               <MdWorkspacePremium />
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#contact"
