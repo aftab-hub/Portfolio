@@ -46,7 +46,7 @@ export const projects = [
         imgSrc: "/images/TodoApp.png",
         title: "Todo App with User Authentication",
         description: "A full-stack Todo application that allows users to create, update, delete, and manage tasks securely. Includes robust user authentication.",
-        link: ""
+        link: "https://todoapp-frontend-o0nq.onrender.com"
     }
 ]
 
