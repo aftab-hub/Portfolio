@@ -4,7 +4,7 @@ import { IoMdHome } from "react-icons/io";
 import { BiUser } from "react-icons/bi";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import { RiCodeBoxFill } from "react-icons/ri";
-import { MdWorkspacePremium } from "react-icons/md";
+// import { MdWorkspacePremium } from "react-icons/md";
 
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-cyan-500 fixed top-0 left-0 w-full z-50 shadow-md ">
+    <nav className="bg-cyan-400 fixed top-0 left-0 w-full z-50 shadow-md ">
       <div className="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
         {/* Logo */}
         <a href="#home" onClick={() => handleLinkClick("Home")}>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 href={href}
                 onClick={() => handleLinkClick(name)}
                 className={`hover:text-gray-900 transition-colors duration-300 ${
-                  activeLink === name ? "text-cyan-900  font-semibold" : ""
+                  activeLink === name ? "text-cyan-600  font-semibold" : ""
                 }`}
               >
                 {name}

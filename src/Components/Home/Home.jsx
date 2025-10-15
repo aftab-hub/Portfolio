@@ -29,7 +29,7 @@ const Home = () => {
           <p className="text-lg text-dark dark:text-dark-400 mb-2 text-shadow-lg">Hi, I'm</p>
           <h1 className='text-4xl md:text-6xl sm:text-3xl font-extrabold leading-tight text-black dark:text-dark mb-4 text-shadow-lg'>  Aftab —{" "}</h1>
          <h1 className="text-3xl sm:text-3xl md:text-6xl font-extrabold leading-tight text-black dark:text-white mb-4 lg:text-start">
-  <span className="text-cyan-500 inline-block whitespace-nowrap text-shadow-lg">
+  <span className="text-cyan-400  inline-block whitespace-nowrap text-shadow-lg">
     <Typewriter
       options={{
         strings: [' Full Stack Developer', 'React Expert', 'MERN Stack Engineer'],
@@ -62,7 +62,7 @@ const Home = () => {
             <a
         
               href="#contact"
-              className="cursor-pointer px-6 py-3 border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-white rounded transition"
+              className="cursor-pointer px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white rounded transition"
             >
               Let's work Together
             </a>

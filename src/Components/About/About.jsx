@@ -1,6 +1,5 @@
 import React from 'react'
-import Works from '../Works/Works'
-import { DiMagento } from "react-icons/di";
+// import Works from '../Works/Works'
 import { FaCode, FaRocket, FaMobileAlt, FaClock } from 'react-icons/fa';
 import Skills from './Skills';
 import { FaLaptopCode } from "react-icons/fa";
@@ -15,7 +14,7 @@ const About = () => {
       {/* About Box */}
      <div className="w-full lg:w-[80%] mx-auto mt-16 px-6 py-10 rounded-3xl bg-white border border-gray-300 dark:border-gray-300 shadow-sm ">
       <div className="max-w-3xl mx-auto text-center space-y-6">
-        <FaLaptopCode className="text-5xl text-cyan-500 mx-auto" />
+        <FaLaptopCode className="text-5xl text-cyan-400 mx-auto" />
 
         <h2 className="text-2xl md:text-3xl font-bold text-gray-700 dark:text-dark">
           I build fast, scalable, and elegant web solutions.
@@ -27,11 +26,11 @@ const About = () => {
 
         <div className="flex justify-center gap-10 text-center text-gray-700 dark:text-gray-200 font-semibold text-lg mt-4">
           {/* <div>
-            <p className="text-3xl text-cyan-500">2+</p>
+            <p className="text-3xl text-cyan-400">2+</p>
             <span className='text-gray-700'>Web Apps Built</span>
           </div>
           <div>
-            <p className="text-3xl text-cyan-500">1+</p>
+            <p className="text-3xl text-cyan-400">1+</p>
             <span className='text-gray-700'>Years of Experience</span>
           </div> */}
         </div>
