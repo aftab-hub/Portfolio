@@ -10,7 +10,7 @@ const Works = () => {
            {projects.map(({imgSrc, title, description, link}) => {
             
             return(
-                 <a href="https://github.com/aftab-hub/MernAuth">
+                 <a href={link} >
 
             <div className='border border-gray-400 p-5 rounded-xl hover:shadow-lg transition-shadow duration-300'>
             <div>
