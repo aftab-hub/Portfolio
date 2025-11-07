@@ -7,7 +7,7 @@ const Works = () => {
       id="works"
       className="w-full flex flex-col items-center justify-center pt-20 px-6 md:px-12 bg-gradient-to-b "
     >
-      <h2 className="text-4xl font-bold mb-3 ">Projects</h2>
+      <h2 className="text-4xl font-bold mb-3 text-gray-600">Projects</h2>
       <p className="text-gray-400 text-center max-w-2xl mb-12">
         Here are some of the projects I’ve worked on recently. Each project
         reflects my passion for building modern, user-friendly web apps.
