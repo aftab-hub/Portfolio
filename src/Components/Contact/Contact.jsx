@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <section className='lg:pb-0 pb-5 p-5  '>
+      <section className='lg:pb-0 pb-5   '>
         <div
         id="contact"
         className="lg:mx-left mx:pt-0 flex flex-col lg:flex-row justify-between items-start gap-10 px-6 md:px-12 py-10 text-gray-800 dark:text-white "

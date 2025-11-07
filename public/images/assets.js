@@ -43,10 +43,16 @@ export const assets = [
 
 export const projects = [
     {
-        imgSrc: "/images/TodoApp.png",
+        imgSrc: "/images/Todo.png",
         title: "Todo App with User Authentication",
         description: "A full-stack Todo application that allows users to create, update, delete, and manage tasks securely. Includes robust user authentication.",
         link: "https://todoapp-frontend-o0nq.onrender.com"
+    },
+    {
+        imgSrc: "/images/Dashboard.png",
+        title: "Product Transparency Dashboard",
+        description: "Built a responsive dashboard with Tailwind CSS and JSON Server, AI transparency scoring, real-time analytics, and CRUD operations for efficient data handling.",
+        link: "https://hedamo-dashboard.onrender.com"
     }
 ]
 
