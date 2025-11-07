@@ -18,7 +18,7 @@ const Contact = () => {
           </p>
            {/* Social Icons */}
       <div className="mt-5 flex justify-center lg:justify-center gap-6 text-3xl text-gray-600 dark:text-gray-500">
-        <a href="https://www.linkedin.com/in/aftab-idrishi-85a396257" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition">
+        <a href="https://www.linkedin.com/in/aftab-idrishi-85a396257" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
           <FaLinkedin />
         </a>
         <a href="mailto:aftabaftab1158@gmail.com" className="hover:text-black transition">
