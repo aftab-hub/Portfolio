@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
 
-  <section id="about" className="w-full lg:py-2 py-5 px-4 md:px-10 md:mt-10 max-lg:mt-[-20vh]">
+  <section id="about" className="w-full lg:py-2 py-5 px-4 md:px-10 mt-10 ">
       
       {/* About Box */}
      <div className="w-full lg:w-[80%] mx-auto mt-16 px-6 py-10 rounded-3xl bg-white border border-gray-300 dark:border-gray-300 shadow-sm ">
