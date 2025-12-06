@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="relative overflow-hidden pt-25 px-4  md:px-10 transition-colors duration-300 mb-[-70px] min-h-[60vh] "
+      className="relative overflow-hidden pt-25 px-4  md:px-10 transition-colors duration-300 mb-[-70px] min-h-[50vh] "
     >
       {/* Decorative Blobs */}
       <div className="absolute -top-10 -left-20 w-80 h-80  opacity-20 rounded-full  z-0 " />
