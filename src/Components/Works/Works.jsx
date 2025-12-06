@@ -15,8 +15,8 @@ const Works = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-7xl">
         {projects.map(({ imgSrc, title, description, link }, index) => (
+          <a href={link} target="_blank" rel="noopener noreferrer" key={index}>
           <div
-            key={index}
             className="relative cursor-pointer group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/5 backdrop-blur-lg border border-white/10"
           >
             {/* Image Section */}
@@ -44,6 +44,7 @@ const Works = () => {
               </a>
             </div>
           </div>
+          </a>
         ))}
       </div>
     </section>
