@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="relative overflow-hidden pt-25 px-4 min-h-screen md:px-10 transition-colors duration-300 mb-[-65px] "
+      className="relative overflow-hidden pt-25 px-4 min-h-screen md:px-10 transition-colors duration-300 lg:mb-[-25vh] mb-[-10vh] "
     >
       {/* Decorative Blobs */}
       <div className="absolute -top-10 -left-20 w-80 h-80  opacity-20 rounded-full  z-0 " />
@@ -53,7 +53,7 @@ const Home = () => {
               href="https://drive.google.com/file/d/1Z-VBvo4wc8Y3MEq2NzRglWwxPL6xtGNf/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
-              className="group px-6 py-3  bg-black text-dark border border-black hover:bg-zinc-900 hover:text-black dark:bg-white dark:text-black dark:hover:bg-dark dark:hover:text-white dark:hover:border-white transition rounded"
+              className="group px-6 py-3  bg-black text-white border border-black hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-dark dark:hover:text-white dark:hover:border-white transition rounded"
             >
               Download CV
               <span className="ml-2 group-hover:translate-x-1 font-normal inline-block transition">↗</span>
