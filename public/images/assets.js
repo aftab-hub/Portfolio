@@ -43,6 +43,12 @@ export const assets = [
 
 export const projects = [
     {
+        imgSrc: "/images/Ecommerce.png",
+        title: "Ecommerce App",
+        description: "An ecommerce application built with React, Node.js, Express, and MongoDB. It features user authentication, product management, and a responsive design for seamless shopping experiences.",
+        link: "https://karty-166d.onrender.com"
+    },
+    {
         imgSrc: "/images/Todo.png",
         title: "Todo App with User Authentication",
         description: "A full-stack Todo application that allows users to create, update, delete, and manage tasks securely. Includes robust user authentication.",
