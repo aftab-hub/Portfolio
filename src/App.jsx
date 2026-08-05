@@ -10,7 +10,9 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import ReactLenis from 'lenis/react'
-
+import Auth from "./Admin/Auth"; 
+import Dashboard from "./Admin/Dashboard";
+import ProtectedRoute from "./services/ProtectedRoute";
 
 const App = ()=> {
   
@@ -47,7 +49,22 @@ const App = ()=> {
  <Route path='/about' element={<About/>} />
  <Route path='/works' element={<Works/>} />
  <Route path='/contact' element={<Contact/>} />
+
+ <Route path="/login" element={<Auth />} />
+
 </Routes>
+
+       <Routes>
+         <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>
+          }
+        />
+       </Routes>
+
 <Component/>
 </div>
     </BrowserRouter>

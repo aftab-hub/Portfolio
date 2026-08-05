@@ -53,7 +53,7 @@ const Home = () => {
               href="https://drive.google.com/file/d/1Z-VBvo4wc8Y3MEq2NzRglWwxPL6xtGNf/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
-              className="group px-6 py-3  bg-black text-white border border-black hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-dark dark:hover:text-white dark:hover:border-white transition rounded"
+              className="group px-6 py-3  bg-black text-white border border-black  hover:border-black  hover:text-black hover:bg-white transition rounded"
             >
               Download CV
               <span className="ml-2 group-hover:translate-x-1 font-normal inline-block transition">↗</span>
@@ -86,7 +86,7 @@ const Home = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="w-full md:w-1/2 flex justify-center gap-10"
         >
-          <div className="border  border-zinc-300 dark:border-gray-400 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 lg:translate-x-15">
+          <div className="border  border-gray-300  rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 lg:translate-x-15">
             <img
               src={"./images/c00d50f9-5032-4cfc-bbe8-1a91b639a9e2.png"}
               alt="Developer"

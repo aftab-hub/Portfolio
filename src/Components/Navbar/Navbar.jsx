@@ -29,6 +29,7 @@ const Navbar = () => {
             { name: "About", href: "#about" },
             { name: "Works", href: "#works" },
             // { name: "Reviews", href: "#reviews" },
+            { name: "Blogs", href: "#blogs" },
             { name: "Contact", href: "#contact" },
           ].map(({ name, href }) => (
             <li key={name}>
@@ -94,6 +95,15 @@ const Navbar = () => {
               <IoChatboxEllipsesOutline />
             </a>
           </li>
+          {/* <li>
+            <a
+              href="#blog"
+              onClick={() => handleLinkClick("Blog")}
+              className={`${activeLink === "Blog" ? "text-cyan-600" : ""}`}
+            >
+              <IoChatboxEllipsesOutline />
+            </a>
+          </li> */}
         </ul>
       </div>
     </nav>

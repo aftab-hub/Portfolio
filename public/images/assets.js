@@ -43,7 +43,7 @@ export const assets = [
 
 export const projects = [
     {
-        imgSrc: "/images/Ecommerce.png",
+        imgSrc: "/images/Ecommerce.jpg",
         title: "Ecommerce App",
         description: "An ecommerce application built with React, Node.js, Express, and MongoDB. It features user authentication, product management, and a responsive design for seamless shopping experiences.",
         link: "https://karty-166d.onrender.com"
