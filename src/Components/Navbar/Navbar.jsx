@@ -29,7 +29,7 @@ const Navbar = () => {
             { name: "About", href: "#about" },
             { name: "Works", href: "#works" },
             // { name: "Reviews", href: "#reviews" },
-            { name: "Blogs", href: "#blogs" },
+            // { name: "Blogs", href: "#blogs" },
             { name: "Contact", href: "#contact" },
           ].map(({ name, href }) => (
             <li key={name}>
