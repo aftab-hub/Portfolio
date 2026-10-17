@@ -137,7 +137,7 @@ const Contact = () => {
 
         {/* Footer */}
         <p className="pb-10 text-center text-gray-900 text-sm">
-          © 2025 Aftab.
+          © {new Date().getFullYear()} Aftab.
         </p>
       </section>
     </>
